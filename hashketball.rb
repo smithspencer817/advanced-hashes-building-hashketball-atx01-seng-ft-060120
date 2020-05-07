@@ -10,6 +10,9 @@ def game_hash
     result[key][:players] = []
     result[key][:players][:player_name] = ""
     result[key][:players][:number] = 0
+    result[key][:players][:shoe] = 0
+    result[key][:players][:points] = 0
+    result[key][:players][:rebounds] = 0
   end
   
 end
