@@ -18,7 +18,7 @@ def game_hash
     result[key][:players][:steals] = 0
     result[key][:players][:blocks] = 0
     result[key][:players][:slam_dunks] = 0
+    binding.pry
   end
-  binding.pry
   result
 end
