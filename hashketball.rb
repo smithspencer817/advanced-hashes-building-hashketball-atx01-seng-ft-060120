@@ -1,4 +1,6 @@
 # Write your code here!
+require "pry"
+
 def game_hash
   result = Hash.new 
   result[:home] = {}
