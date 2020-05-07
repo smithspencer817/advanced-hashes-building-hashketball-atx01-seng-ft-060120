@@ -18,6 +18,6 @@ def game_hash
     result[key][:players][:blocks] = 0
     result[key][:players][:slam_dunks] = 0
   end
-  result
   binding.pry
+  result
 end
