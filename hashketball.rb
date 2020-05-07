@@ -9,16 +9,6 @@ def game_hash
     result[key][:team_name] = ""
     result[key][:colors] = []
     result[key][:players] = []
-    binding.pry
-    result[key][:players][:player_name] = ""
-    result[key][:players][:number] = 0
-    result[key][:players][:shoe] = 0
-    result[key][:players][:points] = 0
-    result[key][:players][:rebounds] = 0
-    result[key][:players][:assists] = 0
-    result[key][:players][:steals] = 0
-    result[key][:players][:blocks] = 0
-    result[key][:players][:slam_dunks] = 0
   end
   result
 end
