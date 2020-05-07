@@ -5,7 +5,7 @@ def game_hash
   result = Hash.new 
   result[:home] = {}
   result[:away] = {}
-  result.each do |key|
+  result.each do |key, value|
     binding.pry
     result[key][:team_name] = ""
     result[key][:colors] = []
