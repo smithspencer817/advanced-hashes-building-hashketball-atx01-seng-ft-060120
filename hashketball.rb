@@ -9,8 +9,8 @@ def game_hash
     result[key][:team_name] = ""
     result[key][:colors] = []
     result[key][:players] = []
-    result[key][:players][:player_name] = ""
     binding.pry
+    result[key][:players][:player_name] = ""
     result[key][:players][:number] = 0
     result[key][:players][:shoe] = 0
     result[key][:players][:points] = 0
