@@ -6,8 +6,8 @@ def game_hash
   result[:home] = {}
   result[:away] = {}
   result.each do |key, value|
-    binding.pry
     result[key][:team_name] = ""
+    binding.pry
     result[key][:colors] = []
     result[key][:players] = []
     result[key][:players][:player_name] = ""
