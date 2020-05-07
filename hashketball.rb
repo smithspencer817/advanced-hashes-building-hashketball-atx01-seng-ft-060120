@@ -13,6 +13,11 @@ def game_hash
     result[key][:players][:shoe] = 0
     result[key][:players][:points] = 0
     result[key][:players][:rebounds] = 0
+    result[key][:players][:assists] = 0
+    result[key][:players][:steals] = 0
+    result[key][:players][:blocks] = 0
+    result[key][:players][:slam_dunks] = 0
   end
-  
+  result
+  binding.pry
 end
