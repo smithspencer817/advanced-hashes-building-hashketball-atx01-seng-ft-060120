@@ -9,4 +9,4 @@ def game_hash
     result[key][:colors] = []
     result[key][:players] = []
     
-  end
+end
